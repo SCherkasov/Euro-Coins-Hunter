@@ -14,6 +14,11 @@
 		8A9C611F210DEDA600D82655 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C611E210DEDA600D82655 /* SignInViewController.swift */; };
 		8A9C6121210DEDF000D82655 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C6120210DEDF000D82655 /* RegisterViewController.swift */; };
 		8A9C6123210DF76D00D82655 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C6122210DF76D00D82655 /* GoogleService-Info.plist */; };
+		8A9C6125210E066E00D82655 /* FlagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C6124210E066E00D82655 /* FlagsViewController.swift */; };
+		8A9C6128210E06C400D82655 /* FlagsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C6126210E06C400D82655 /* FlagsCollectionViewCell.swift */; };
+		8A9C6129210E06C400D82655 /* FlagsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C6127210E06C400D82655 /* FlagsCollectionViewCell.xib */; };
+		8A9C612D210E0A5000D82655 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C612C210E0A5000D82655 /* Resources.swift */; };
+		8A9C612F210E49DC00D82655 /* BlackNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C612E210E49DC00D82655 /* BlackNavigationController.swift */; };
 		C18149FF4A923E95F774A88C /* Pods_Euro_Coins_Hunter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D67E66560BA0FAB8F8DAC1 /* Pods_Euro_Coins_Hunter.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +32,11 @@
 		8A9C611E210DEDA600D82655 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8A9C6120210DEDF000D82655 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		8A9C6122210DF76D00D82655 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8A9C6124210E066E00D82655 /* FlagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsViewController.swift; sourceTree = "<group>"; };
+		8A9C6126210E06C400D82655 /* FlagsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A9C6127210E06C400D82655 /* FlagsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlagsCollectionViewCell.xib; sourceTree = "<group>"; };
+		8A9C612C210E0A5000D82655 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		8A9C612E210E49DC00D82655 /* BlackNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackNavigationController.swift; sourceTree = "<group>"; };
 		A10D62C1A8DCCFE9AD0F9548 /* Pods-Euro Coins Hunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Euro Coins Hunter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Euro Coins Hunter/Pods-Euro Coins Hunter.debug.xcconfig"; sourceTree = "<group>"; };
 		B8B89EA6380A117D1BE2EE57 /* Pods-Euro Coins Hunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Euro Coins Hunter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Euro Coins Hunter/Pods-Euro Coins Hunter.release.xcconfig"; sourceTree = "<group>"; };
 		F4D67E66560BA0FAB8F8DAC1 /* Pods_Euro_Coins_Hunter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Euro_Coins_Hunter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,14 +77,35 @@
 			children = (
 				8A9C610C210DEA3D00D82655 /* AppDelegate.swift */,
 				8A9C6110210DEA3D00D82655 /* Main.storyboard */,
-				8A9C611E210DEDA600D82655 /* SignInViewController.swift */,
-				8A9C6120210DEDF000D82655 /* RegisterViewController.swift */,
+				8A9C612A210E089800D82655 /* Controller */,
+				8A9C612B210E08BD00D82655 /* Model */,
 				8A9C6113210DEA4000D82655 /* Assets.xcassets */,
 				8A9C6115210DEA4000D82655 /* LaunchScreen.storyboard */,
 				8A9C6118210DEA4000D82655 /* Info.plist */,
 				8A9C6122210DF76D00D82655 /* GoogleService-Info.plist */,
 			);
 			path = "Euro Coins Hunter";
+			sourceTree = "<group>";
+		};
+		8A9C612A210E089800D82655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A9C611E210DEDA600D82655 /* SignInViewController.swift */,
+				8A9C6120210DEDF000D82655 /* RegisterViewController.swift */,
+				8A9C6124210E066E00D82655 /* FlagsViewController.swift */,
+				8A9C612E210E49DC00D82655 /* BlackNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A9C612B210E08BD00D82655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A9C612C210E0A5000D82655 /* Resources.swift */,
+				8A9C6126210E06C400D82655 /* FlagsCollectionViewCell.swift */,
+				8A9C6127210E06C400D82655 /* FlagsCollectionViewCell.xib */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BB4B5C9BA619A74BDE2F2619 /* Pods */ = {
@@ -159,6 +190,7 @@
 				8A9C6123210DF76D00D82655 /* GoogleService-Info.plist in Resources */,
 				8A9C6114210DEA4000D82655 /* Assets.xcassets in Resources */,
 				8A9C6112210DEA3D00D82655 /* Main.storyboard in Resources */,
+				8A9C6129210E06C400D82655 /* FlagsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9C6125210E066E00D82655 /* FlagsViewController.swift in Sources */,
 				8A9C6121210DEDF000D82655 /* RegisterViewController.swift in Sources */,
 				8A9C611F210DEDA600D82655 /* SignInViewController.swift in Sources */,
+				8A9C612D210E0A5000D82655 /* Resources.swift in Sources */,
+				8A9C6128210E06C400D82655 /* FlagsCollectionViewCell.swift in Sources */,
 				8A9C610D210DEA3D00D82655 /* AppDelegate.swift in Sources */,
+				8A9C612F210E49DC00D82655 /* BlackNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HH9AF9DGX8;
 				INFOPLIST_FILE = "Euro Coins Hunter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HH9AF9DGX8;
 				INFOPLIST_FILE = "Euro Coins Hunter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

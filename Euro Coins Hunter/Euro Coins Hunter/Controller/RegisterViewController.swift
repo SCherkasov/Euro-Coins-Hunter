@@ -14,9 +14,11 @@ class RegisterViewController: UIViewController {
   @IBOutlet var userNameTextField: UITextField!
   @IBOutlet var emailTextField: UITextField!
   @IBOutlet var passwordTextField: UITextField!
+  @IBOutlet var incorrectDataLabel: UILabel!
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    incorrectDataLabel.isHidden = true
   }
   
   @IBAction func haveAccountYetButton(_ sender: UIButton) {
@@ -30,8 +32,8 @@ class RegisterViewController: UIViewController {
                             
                             if error != nil {
                               print(error.debugDescription)
-                            }
-                            else {
+                              self.incorrectDataLabel.isHidden = false
+                            } else {
                               print("Succesfull")
                               self.dismiss(animated: true, completion: nil)
                             }
