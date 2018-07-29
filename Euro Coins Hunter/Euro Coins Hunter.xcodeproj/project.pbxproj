@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A9C610D210DEA3D00D82655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C610C210DEA3D00D82655 /* AppDelegate.swift */; };
+		8A9C6112210DEA3D00D82655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C6110210DEA3D00D82655 /* Main.storyboard */; };
+		8A9C6114210DEA4000D82655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C6113210DEA4000D82655 /* Assets.xcassets */; };
+		8A9C6117210DEA4000D82655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C6115210DEA4000D82655 /* LaunchScreen.storyboard */; };
+		8A9C611F210DEDA600D82655 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C611E210DEDA600D82655 /* SignInViewController.swift */; };
+		8A9C6121210DEDF000D82655 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C6120210DEDF000D82655 /* RegisterViewController.swift */; };
+		8A9C6123210DF76D00D82655 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C6122210DF76D00D82655 /* GoogleService-Info.plist */; };
+		C18149FF4A923E95F774A88C /* Pods_Euro_Coins_Hunter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D67E66560BA0FAB8F8DAC1 /* Pods_Euro_Coins_Hunter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A9C6109210DEA3D00D82655 /* Euro Coins Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Euro Coins Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9C610C210DEA3D00D82655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A9C6111210DEA3D00D82655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A9C6113210DEA4000D82655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A9C6116210DEA4000D82655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A9C6118210DEA4000D82655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9C611E210DEDA600D82655 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8A9C6120210DEDF000D82655 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8A9C6122210DF76D00D82655 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A10D62C1A8DCCFE9AD0F9548 /* Pods-Euro Coins Hunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Euro Coins Hunter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Euro Coins Hunter/Pods-Euro Coins Hunter.debug.xcconfig"; sourceTree = "<group>"; };
+		B8B89EA6380A117D1BE2EE57 /* Pods-Euro Coins Hunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Euro Coins Hunter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Euro Coins Hunter/Pods-Euro Coins Hunter.release.xcconfig"; sourceTree = "<group>"; };
+		F4D67E66560BA0FAB8F8DAC1 /* Pods_Euro_Coins_Hunter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Euro_Coins_Hunter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A9C6106210DEA3D00D82655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18149FF4A923E95F774A88C /* Pods_Euro_Coins_Hunter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A9C6100210DEA3D00D82655 = {
+			isa = PBXGroup;
+			children = (
+				8A9C610B210DEA3D00D82655 /* Euro Coins Hunter */,
+				8A9C610A210DEA3D00D82655 /* Products */,
+				BB4B5C9BA619A74BDE2F2619 /* Pods */,
+				C3FB4BF75494B5BBEF7B7ED0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A9C610A210DEA3D00D82655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A9C6109210DEA3D00D82655 /* Euro Coins Hunter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A9C610B210DEA3D00D82655 /* Euro Coins Hunter */ = {
+			isa = PBXGroup;
+			children = (
+				8A9C610C210DEA3D00D82655 /* AppDelegate.swift */,
+				8A9C6110210DEA3D00D82655 /* Main.storyboard */,
+				8A9C611E210DEDA600D82655 /* SignInViewController.swift */,
+				8A9C6120210DEDF000D82655 /* RegisterViewController.swift */,
+				8A9C6113210DEA4000D82655 /* Assets.xcassets */,
+				8A9C6115210DEA4000D82655 /* LaunchScreen.storyboard */,
+				8A9C6118210DEA4000D82655 /* Info.plist */,
+				8A9C6122210DF76D00D82655 /* GoogleService-Info.plist */,
+			);
+			path = "Euro Coins Hunter";
+			sourceTree = "<group>";
+		};
+		BB4B5C9BA619A74BDE2F2619 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A10D62C1A8DCCFE9AD0F9548 /* Pods-Euro Coins Hunter.debug.xcconfig */,
+				B8B89EA6380A117D1BE2EE57 /* Pods-Euro Coins Hunter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3FB4BF75494B5BBEF7B7ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4D67E66560BA0FAB8F8DAC1 /* Pods_Euro_Coins_Hunter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A9C6108210DEA3D00D82655 /* Euro Coins Hunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9C611B210DEA4000D82655 /* Build configuration list for PBXNativeTarget "Euro Coins Hunter" */;
+			buildPhases = (
+				2667985DC9234A1C00BCA023 /* [CP] Check Pods Manifest.lock */,
+				8A9C6105210DEA3D00D82655 /* Sources */,
+				8A9C6106210DEA3D00D82655 /* Frameworks */,
+				8A9C6107210DEA3D00D82655 /* Resources */,
+				01772E2A3B1C4BC1179F16FF /* [CP] Embed Pods Frameworks */,
+				729735C6286F4D6542F878FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Euro Coins Hunter";
+			productName = "Euro Coins Hunter";
+			productReference = 8A9C6109210DEA3D00D82655 /* Euro Coins Hunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A9C6101210DEA3D00D82655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Stanislav Cherkasov";
+				TargetAttributes = {
+					8A9C6108210DEA3D00D82655 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A9C6104210DEA3D00D82655 /* Build configuration list for PBXProject "Euro Coins Hunter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A9C6100210DEA3D00D82655;
+			productRefGroup = 8A9C610A210DEA3D00D82655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A9C6108210DEA3D00D82655 /* Euro Coins Hunter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A9C6107210DEA3D00D82655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9C6117210DEA4000D82655 /* LaunchScreen.storyboard in Resources */,
+				8A9C6123210DF76D00D82655 /* GoogleService-Info.plist in Resources */,
+				8A9C6114210DEA4000D82655 /* Assets.xcassets in Resources */,
+				8A9C6112210DEA3D00D82655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01772E2A3B1C4BC1179F16FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Euro Coins Hunter/Pods-Euro Coins Hunter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Euro Coins Hunter/Pods-Euro Coins Hunter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2667985DC9234A1C00BCA023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Euro Coins Hunter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729735C6286F4D6542F878FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Euro Coins Hunter/Pods-Euro Coins Hunter-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Euro Coins Hunter/Pods-Euro Coins Hunter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A9C6105210DEA3D00D82655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9C6121210DEDF000D82655 /* RegisterViewController.swift in Sources */,
+				8A9C611F210DEDA600D82655 /* SignInViewController.swift in Sources */,
+				8A9C610D210DEA3D00D82655 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A9C6110210DEA3D00D82655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A9C6111210DEA3D00D82655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A9C6115210DEA4000D82655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A9C6116210DEA4000D82655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A9C6119210DEA4000D82655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A9C611A210DEA4000D82655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A9C611C210DEA4000D82655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10D62C1A8DCCFE9AD0F9548 /* Pods-Euro Coins Hunter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH9AF9DGX8;
+				INFOPLIST_FILE = "Euro Coins Hunter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Euro-Coins-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A9C611D210DEA4000D82655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B89EA6380A117D1BE2EE57 /* Pods-Euro Coins Hunter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH9AF9DGX8;
+				INFOPLIST_FILE = "Euro Coins Hunter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Euro-Coins-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A9C6104210DEA3D00D82655 /* Build configuration list for PBXProject "Euro Coins Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9C6119210DEA4000D82655 /* Debug */,
+				8A9C611A210DEA4000D82655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9C611B210DEA4000D82655 /* Build configuration list for PBXNativeTarget "Euro Coins Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9C611C210DEA4000D82655 /* Debug */,
+				8A9C611D210DEA4000D82655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A9C6101210DEA3D00D82655 /* Project object */;
+}

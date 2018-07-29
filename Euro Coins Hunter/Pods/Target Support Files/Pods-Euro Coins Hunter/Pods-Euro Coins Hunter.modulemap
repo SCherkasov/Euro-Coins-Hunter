@@ -1,0 +1,6 @@
+framework module Pods_Euro_Coins_Hunter {
+  umbrella header "Pods-Euro Coins Hunter-umbrella.h"
+
+  export *
+  module * { export * }
+}
