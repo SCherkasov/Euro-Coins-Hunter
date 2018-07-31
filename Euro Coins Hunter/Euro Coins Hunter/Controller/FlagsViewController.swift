@@ -57,3 +57,12 @@ extension FlagsViewController: UICollectionViewDataSource {
     return cell
   }
 }
+
+extension FlagsViewController: UICollectionViewDelegate {
+  
+  func collectionView(_ collectionView: UICollectionView,
+                      didSelectItemAt indexPath: IndexPath) {
+    performSegue(withIdentifier: "goToTheCoins", sender: self)
+  }
+  
+}

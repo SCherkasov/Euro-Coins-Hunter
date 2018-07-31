@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2B9B592110CC3A00B4551A /* CoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B9B582110CC3A00B4551A /* CoinsViewController.swift */; };
+		8A2B9B5C2110CC9100B4551A /* CoinsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B9B5A2110CC9100B4551A /* CoinsCollectionViewCell.swift */; };
+		8A2B9B5D2110CC9100B4551A /* CoinsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B9B5B2110CC9100B4551A /* CoinsCollectionViewCell.xib */; };
 		8A9C610D210DEA3D00D82655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C610C210DEA3D00D82655 /* AppDelegate.swift */; };
 		8A9C6112210DEA3D00D82655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C6110210DEA3D00D82655 /* Main.storyboard */; };
 		8A9C6114210DEA4000D82655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C6113210DEA4000D82655 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A2B9B582110CC3A00B4551A /* CoinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewController.swift; sourceTree = "<group>"; };
+		8A2B9B5A2110CC9100B4551A /* CoinsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A2B9B5B2110CC9100B4551A /* CoinsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinsCollectionViewCell.xib; sourceTree = "<group>"; };
 		8A9C6109210DEA3D00D82655 /* Euro Coins Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Euro Coins Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9C610C210DEA3D00D82655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9C6111210DEA3D00D82655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 				8A9C611E210DEDA600D82655 /* SignInViewController.swift */,
 				8A9C6120210DEDF000D82655 /* RegisterViewController.swift */,
 				8A9C6124210E066E00D82655 /* FlagsViewController.swift */,
+				8A2B9B582110CC3A00B4551A /* CoinsViewController.swift */,
 				8A9C612E210E49DC00D82655 /* BlackNavigationController.swift */,
 			);
 			path = Controller;
@@ -104,6 +111,8 @@
 				8A9C612C210E0A5000D82655 /* Resources.swift */,
 				8A9C6126210E06C400D82655 /* FlagsCollectionViewCell.swift */,
 				8A9C6127210E06C400D82655 /* FlagsCollectionViewCell.xib */,
+				8A2B9B5A2110CC9100B4551A /* CoinsCollectionViewCell.swift */,
+				8A2B9B5B2110CC9100B4551A /* CoinsCollectionViewCell.xib */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +198,7 @@
 				8A9C6117210DEA4000D82655 /* LaunchScreen.storyboard in Resources */,
 				8A9C6123210DF76D00D82655 /* GoogleService-Info.plist in Resources */,
 				8A9C6114210DEA4000D82655 /* Assets.xcassets in Resources */,
+				8A2B9B5D2110CC9100B4551A /* CoinsCollectionViewCell.xib in Resources */,
 				8A9C6112210DEA3D00D82655 /* Main.storyboard in Resources */,
 				8A9C6129210E06C400D82655 /* FlagsCollectionViewCell.xib in Resources */,
 			);
@@ -262,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2B9B5C2110CC9100B4551A /* CoinsCollectionViewCell.swift in Sources */,
 				8A9C6125210E066E00D82655 /* FlagsViewController.swift in Sources */,
 				8A9C6121210DEDF000D82655 /* RegisterViewController.swift in Sources */,
 				8A9C611F210DEDA600D82655 /* SignInViewController.swift in Sources */,
@@ -269,6 +280,7 @@
 				8A9C6128210E06C400D82655 /* FlagsCollectionViewCell.swift in Sources */,
 				8A9C610D210DEA3D00D82655 /* AppDelegate.swift in Sources */,
 				8A9C612F210E49DC00D82655 /* BlackNavigationController.swift in Sources */,
+				8A2B9B592110CC3A00B4551A /* CoinsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 import UIKit
 
 class FlagsCollectionViewCell: UICollectionViewCell {
-
+  
   @IBOutlet var flagImage: UIImageView!
   @IBOutlet var flagNameLabel: UILabel!
   
