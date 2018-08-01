@@ -149,4 +149,12 @@ class Resources {
      "20 euro cent", "50 euro cent",
      "1 euro", "2 euro"].map { String(describing: $0) }
   }
+  
+  public static let allCoinArray = [coinPictureAndorra, coinPictureAusrtia, coinPictureBelgium, coinPictureCyprus, coinPictureEstonia,
+      coinPictureFinland, coinPictureFrance, coinPictureGermany,
+      coinPictureGreece, coinPictureIreland, coinPictureItaly,
+      coinPictureLatvia, coinPictureLithuania, coinPictureLuxembourg,
+      coinPictureMalta, coinPictureMonaco, coinPictureNetherlands,
+      coinPicturePortugal, coinPictureSan_Marino, coinPictureSlovakia,
+      coinPictureSlovenia, coinPictureSpain, coinPictureVatican_City]
 }
