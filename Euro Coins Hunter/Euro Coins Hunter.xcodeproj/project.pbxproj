@@ -83,8 +83,9 @@
 			children = (
 				8A9C610C210DEA3D00D82655 /* AppDelegate.swift */,
 				8A9C6110210DEA3D00D82655 /* Main.storyboard */,
-				8A9C612A210E089800D82655 /* Controller */,
 				8A9C612B210E08BD00D82655 /* Model */,
+				8AC41F19211764430047B883 /* View */,
+				8A9C612A210E089800D82655 /* Controller */,
 				8A9C6113210DEA4000D82655 /* Assets.xcassets */,
 				8A9C6115210DEA4000D82655 /* LaunchScreen.storyboard */,
 				8A9C6118210DEA4000D82655 /* Info.plist */,
@@ -109,12 +110,19 @@
 			isa = PBXGroup;
 			children = (
 				8A9C612C210E0A5000D82655 /* Resources.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AC41F19211764430047B883 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				8A9C6126210E06C400D82655 /* FlagsCollectionViewCell.swift */,
 				8A9C6127210E06C400D82655 /* FlagsCollectionViewCell.xib */,
 				8A2B9B5A2110CC9100B4551A /* CoinsCollectionViewCell.swift */,
 				8A2B9B5B2110CC9100B4551A /* CoinsCollectionViewCell.xib */,
 			);
-			path = Model;
+			path = View;
 			sourceTree = "<group>";
 		};
 		BB4B5C9BA619A74BDE2F2619 /* Pods */ = {
